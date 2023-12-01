@@ -3,7 +3,8 @@ import Link from "next/link"
 import Logo from './Logo'
 import { usePathname } from 'next/navigation';
 import { motion } from "framer-motion"
-import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from "./Icons";
+import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./Icons";
+import useThemeSwitcher from "../hooks/useThemeSwitcher";
 
 const CustomLink = ({ href, title, className = "" }) => {
     const pathname = usePathname()
@@ -12,15 +13,21 @@ const CustomLink = ({ href, title, className = "" }) => {
         <Link href={href} className={`${className} relative group `}>
             {title}
 
-            <span className={`h-[1px] inline-block absolute bg-dark left-0 -bottom-0.5 group-hover:w-full transition-[width] case duration-300 ${pathname === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+            <span className={`h-[1px] inline-block absolute bg-dark left-0 -bottom-0.5 group-hover:w-full transition-[width] case duration-300 ${pathname === href ? 'w-full' : 'w-0'} dark:bg-light`}>&nbsp;</span>
         </Link>
     )
 }
 
 
 export default function Navbar() {
+
+    const [mode, setMode] = useThemeSwitcher();
+
+
+
+
     return (
-        <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
+        <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light'>
 
             <nav>
                 <CustomLink href="/" title="Home" className="mr-2" />
@@ -75,6 +82,23 @@ export default function Navbar() {
                 >
                     <DribbbleIcon />
                 </motion.a>
+
+
+                <button
+                onClick={() =>setMode(mode === "light" ? "dark" : "light")}
+                className={`ml-3 flex items-center justify-center rounded-full p-1  ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
+                >
+                    
+                    {
+                        mode === "dark" ? 
+                        <SunIcon className={"fill-dark"}/>
+                        : 
+                        <MoonIcon className={"fill-dark"}/>
+                    }
+                </button>
+
+
+
             </nav>
             <div className="absolute left-[50%] top-2 translate-x-[50%]">
                 <Logo />
