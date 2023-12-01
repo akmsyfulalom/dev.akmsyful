@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    experimental: {
+        nextScriptWorkers: true,
+      },
+}
 
 module.exports = nextConfig
+
+

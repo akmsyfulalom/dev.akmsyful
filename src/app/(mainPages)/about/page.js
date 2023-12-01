@@ -12,34 +12,35 @@ import Experences from '@/components/Pages/About/Experences'
 import Education from '@/components/Pages/About/Education'
 
 
+
 const AnimatedNumbers = ({ value }) => {
     const ref = useRef(null);
     const motionValue = useMotionValue(0);
     const springValue = useSpring(motionValue, { duration: 3000 });
     const isInView = useInView(ref, { once: true });
+
     useEffect(() => {
         if (isInView) {
-            motionValue.set(value)
+            motionValue.set(value);
         }
     }, [isInView, value, motionValue]);
 
     useEffect(() => {
         springValue.on("change", (latest) => {
-
             if (ref.current && latest.toFixed(0) <= value) {
                 ref.current.textContent = latest.toFixed(0);
             }
+        });
+    }, [springValue, value]);
 
-        })
-    }, [springValue, value])
-}
-
+    return <span ref={ref} />;
+};
 
 
 export default function page() {
     return (
         <>
-            <main className='w-full flex flex-col items-center justify-center'>
+            <main className='w-full flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Passion Fuels Purpose!" className='mb-20' />
                     <div className=' w-full grid grid-cols-8 gap-16'>
@@ -67,21 +68,21 @@ export default function page() {
 
                                     <AnimatedNumbers value={50} /> +
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75'>Satisfied client's</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied client's</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl  font-bold'>
                                     <AnimatedNumbers value={40} /> +
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75'>Project's Completed</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Project's Completed</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl  font-bold'>
                                     <AnimatedNumbers value={3} /> +
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75'>Years of experiences</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Years of experiences</h2>
                             </div>
                         </div>
 
