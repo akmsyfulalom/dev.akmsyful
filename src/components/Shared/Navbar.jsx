@@ -228,7 +228,7 @@ export default function Navbar() {
                 null
             }
 
-            <div className="absolute left-[45%] top-2 ">
+            <div className="absolute left-[45%] md:left-[25%] top-2 ">
                 <Logo />
             </div>
         </header>
