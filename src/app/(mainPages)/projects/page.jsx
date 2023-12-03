@@ -2,7 +2,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from '@/components/Shared/Icons';
-import project1 from '../../../../public/images/projects/crypto-screener-cover-image.jpg';
+import project1 from '../../../../public/images/projects/TaqwaintFeaturesPro1.png';
+import madlyPro1 from '../../../../public/images/projects/madlyPro1.png';
+import resalePro from '../../../../public/images/projects/resalePro.png';
+import typingPro from '../../../../public/images/projects/typingPro.png';
+import surfacePro from '../../../../public/images/projects/surfacePro.png';
+import photograpyPro from '../../../../public/images/projects/photograpyPro.png';
 import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import { motion } from "framer-motion";
@@ -83,62 +88,62 @@ export default function Page() {
    <TransitionEffect />
     <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light '>
       <Layout className='pt-16'>
-        <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text7xl sm:mb-8 sm:!text-6xl  xs:text-4xl"/>
+        <AnimatedText text="Imagination Trumps mastery!" className="mb-16 lg:!text7xl sm:mb-8 sm:!text-6xl  xs:text-4xl"/>
         <div className="mb-16" />
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gapy-24 sm:gap-x-0'>
           <div className='col-span-12'>
             <FeaturesProject
-              title="Crypto Screener Application"
+              title="Corporate gift items supplier in Bangladesh"
               img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your "
-              link="/"
-              github="/"
+              summary="From this website, people can buy all corporate products by choosing print. Using NextJS, Tailwindcss and NPM packages!"
+              link="https://www.taqwaint.com/"
+              github="https://github.com/akmsyfulalom/taqwain_web"
               type="Featured Project"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              link="/"
-              github="/"
+              title="Madlymelody - Color Books for you!"
+              img={madlyPro1}
+              link="https://madlymelody.com/"
+              github="https://github.com/akmsyfulalom/madlymelody"
               type="Featured Project"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              link="/"
-              github="/"
+              title="Type speed test web app - Typing speed test web app"
+              img={typingPro}
+              link="https://checktypingspeedassgnment7.netlify.app/"
+              github="https://github.com/akmsyfulalom/Type-Monster-Debug-Assignment"
               type="Featured Project"
             />
           </div>
           <div className='col-span-12'>
             <FeaturesProject
-              title="Crypto Screener Application"
-              img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router, and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your "
-              link="/"
-              github="/"
+              title="Resale furniture store"
+              img={resalePro}
+              summary="A resale furniture store, is an organization for buying and selling used products, Here you can register as a buyer and as a seller. Using Technologies MongoDB Express JS React JS Node JS and NPM Packages etc. "
+              link="https://resale-furniture-store.web.app/"
+              github="https://github.com/akmsyfulalom/resale-furniture-store-client-side"
               type="Featured Project"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              link="/"
-              github="/"
+              title="Surface Coding - Learing Web App"
+              img={surfacePro}
+              link="https://surface-coding-auth.web.app/"
+              github="https://github.com/akmsyfulalom/surface-coding-client-site"
               type="Featured Project"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              link="/"
-              github="/"
+              title="View Photography - photographer's website"
+              img={photograpyPro}
+              link="https://view-photography-77ca6.web.app/"
+              github="https://github.com/akmsyfulalom/view-photography-client-site"
               type="Featured Project"
             />
           </div>
