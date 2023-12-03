@@ -65,14 +65,14 @@ export default function page() {
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl  font-bold md:text-6xl sm:4xl xs:text-3xl '>
 
-                                    <AnimatedNumbers value={50} /> +
+                                    <AnimatedNumbers value={26} /> +
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Satisfied client's</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl  font-bold md:text-6xl sm:4xl xs:text-3xl'>
-                                    <AnimatedNumbers value={40} /> +
+                                    <AnimatedNumbers value={26} /> +
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Project's Completed</h2>
                             </div>
