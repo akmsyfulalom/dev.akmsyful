@@ -38,7 +38,7 @@ export default function Skills() {
                 </motion.div>
                 
                 <Skill name="CSS" x="-5vw" y="-16vw" />
-                <Skill name="HTML" x="-18vw" y="-20vw" />
+                <Skill name="HTML" x="-18vw" y="-16vw" />
                 <Skill name="NodeJS" x="14vw" y="23vw" />
                 <Skill name="ReactJS" x="-24vw" y="-8vw" />
                 <Skill name="NextJS" x="-25vw" y="14vw" />
@@ -50,7 +50,7 @@ export default function Skills() {
                 <Skill name="ExpressJS" x="-5vw" y="14vw" />
                 <Skill name="Figma" x="4vw" y="-22vw" />
                 <Skill name="Git GitHub" x="-25vw" y="2vw" />
-                <Skill name="JavaScript" x="-13vw" y="8vw" />
+                <Skill name="JavaScript" x="-13vw" y="-22vw" />
             </div>
 
         </>
