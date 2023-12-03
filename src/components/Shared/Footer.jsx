@@ -11,7 +11,7 @@ export default function Footer() {
         <div className='flex  items-center lg:py-2'>
           Build with <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>by&nbsp;<Link href={"/"} className='underline underline-offset-2'>akm syful</Link>
         </div>
-        <Link className='underline underline-offset-2' href={"/"} target='_blank'>Say hey</Link>
+        <Link className='underline underline-offset-2'  href="mailto:akmsyfulbd12@gmail.com" target='_blank'>akmsyfulbd12@gmail.com</Link>
       </Layout>
     </footer>
   )
