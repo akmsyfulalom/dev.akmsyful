@@ -21,7 +21,7 @@ const Skill = ({ name, x, y }) => {
 export default function Skills() {
     return (
         <>
-            <h1 className='font-bold text-8xl mt-42 w-full text-center md:text-6xl md:mt-28'>Skills </h1>
+            <h1 className='font-bold text-8xl mt-48 w-full text-center md:text-6xl md:mt-32 mb-10'>Skills </h1>
 
             <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
             
