@@ -10,6 +10,7 @@ import { useMotionValue, useSpring, useInView } from "framer-motion"
 import Skills from '@/components/Pages/About/Skills'
 import Experences from '@/components/Pages/About/Experences'
 import Education from '@/components/Pages/About/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 
@@ -40,6 +41,7 @@ const AnimatedNumbers = ({ value }) => {
 export default function page() {
     return (
         <>
+        <TransitionEffect />
             <main className='w-full flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:!mb-8 ' />

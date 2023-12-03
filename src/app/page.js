@@ -6,11 +6,12 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from "next/link"
 import { LinkArrow } from '@/components/Shared/Icons'
 import HireMe from '@/components/Pages/Home/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
   return (
     <>
-
+<TransitionEffect />
       <div className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className="flex items-center justify-between w-full lg:flex-col">

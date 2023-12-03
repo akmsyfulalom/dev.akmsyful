@@ -7,6 +7,7 @@ import article1 from 'public/images/articles/create loading screen in react js.j
 import article2 from '../../../../public/images/articles/create modal component in react using react portals.png'
 import { motion, useMotionValue } from "framer-motion"
 import { useRef } from "react";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image)
 
@@ -90,6 +91,8 @@ const FeaturedArticles = ({ image, title, time, summary, link }) => {
 
 export default function page() {
   return (
+  <>
+  <TransitionEffect />
     <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
       <Layout className="pt-16">
         <AnimatedText text="Words Can Change The World! " className="mb-16 lg:!text7xl sm:mb-8 sm:!text-6xl  xs:text-4xl" />
@@ -258,5 +261,6 @@ export default function page() {
 
       </Layout>
     </main>
+  </>
   );
 };
