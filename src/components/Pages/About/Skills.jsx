@@ -47,7 +47,7 @@ export default function Skills() {
                 <Skill name="Mongoose" x="18vw" y="-11vw" />
                 <Skill name="Firebase" x="-8vw" y="24vw" />
                 <Skill name="ExpressJS" x="-5vw" y="14vw" />
-                <Skill name="Figma" x="4vw" y="-20vw" />
+                <Skill name="Figma" x="4vw" y="-22vw" />
                 <Skill name="Git GitHub" x="-25vw" y="2vw" />
             </div>
 
