@@ -63,7 +63,7 @@ export default function page() {
 
                         <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
-                                <span className='inline-block text-7xl  font-bold md:text-6xl sm:4xl xs:text-3xl '>
+                                <span className='inline-block text-7xl  font-bold md:text-5xl sm:3xl xs:text-2xl '>
 
                                     <AnimatedNumbers value={26} /> +
                                 </span>
@@ -71,14 +71,14 @@ export default function page() {
                             </div>
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
-                                <span className='inline-block text-7xl  font-bold md:text-6xl sm:4xl xs:text-3xl'>
+                                <span className='inline-block text-7xl  font-bold md:text-5xl sm:3xl xs:text-2xl '>
                                     <AnimatedNumbers value={26} /> +
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Project's Completed</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
-                                <span className='inline-block text-7xl  font-bold md:text-6xl sm:4xl xs:text-3xl'>
+                                <span className='inline-block text-7xl  font-bold md:text-5xl sm:3xl xs:text-2xl '>
                                     <AnimatedNumbers value={3} /> +
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Years of experiences</h2>
