@@ -4,6 +4,7 @@ import Script from "next/script"
 import './globals.css'
 import Navbar from '@/components/Shared/Navbar';
 import Footer from '@/components/Shared/Footer';
+import LayoutProvider from './LayoutProvider';
 const montserrat = Montserrat({ 
   subsets: ['latin'],
   variable: "--font-mont"
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
         </Script>
         <Navbar />
       
+        <LayoutProvider>
         {children}
+        </LayoutProvider>
         
         
         <Footer />

@@ -14,6 +14,7 @@ import { useRouter } from 'next/navigation'
 
 const CustomMobileLink = ({ href, title, className = "" , toggle}) => {
     const router = useRouter()
+    console.log(router)
 
     const  handleClick =() =>{
         toggle()
@@ -62,9 +63,9 @@ export default function Navbar() {
 
 
             <button className="hidden lg:flex flex-col justify-center items-center" onClick={handleClick}>
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
                 <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0 : ' : 'opacity-100'}`}></span>
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm translate-y-0.5 ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
             </button>
 
             <div className="w-full flex justify-between items-center lg:hidden">
