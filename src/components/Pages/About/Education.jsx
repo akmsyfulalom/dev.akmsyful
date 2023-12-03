@@ -50,7 +50,7 @@ export default function Education() {
                     <Details
 
                         type="Bachelor of Social Science"
-                        time="2021" place="Dakshin Surma Govt. College"
+                        time="Present" place="Dakshin Surma Govt. College"
                         info="The academic degree of Bachelor of Social Science requires three years of study in the social sciences at an institution of higher education, primarily found in the Commonwealth of Nations."
                     />
 
