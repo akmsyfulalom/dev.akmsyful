@@ -37,11 +37,11 @@ export default function Skills() {
                     Web
                 </motion.div>
                 
-                <Skill name="CSS" x="-5vw" y="-16vw" />
-                <Skill name="HTML" x="-18vw" y="-16vw" />
+                <Skill name="CSS" x="-5vw" y="-15vw" />
+                <Skill name="HTML" x="-18vw" y="-15vw" />
                 <Skill name="NodeJS" x="14vw" y="23vw" />
-                <Skill name="ReactJS" x="-24vw" y="-8vw" />
-                <Skill name="NextJS" x="-25vw" y="14vw" />
+                <Skill name="ReactJS" x="-24vw" y="-7vw" />
+                <Skill name="NextJS" x="-25vw" y="15vw" />
                 <Skill name="Tailwind CSS" x="26vw" y="1vw" />
                 <Skill name="MaterialUI" x="24vw" y="-20vw" />
                 <Skill name="MongoDB" x="22vw" y="12vw" />
@@ -49,7 +49,7 @@ export default function Skills() {
                 <Skill name="Firebase" x="-8vw" y="24vw" />
                 <Skill name="ExpressJS" x="-5vw" y="14vw" />
                 <Skill name="Figma" x="4vw" y="-22vw" />
-                <Skill name="Git GitHub" x="-25vw" y="2vw" />
+                <Skill name="Git GitHub" x="-25vw" y="3vw" />
                 <Skill name="JavaScript" x="-13vw" y="-22vw" />
             </div>
 
