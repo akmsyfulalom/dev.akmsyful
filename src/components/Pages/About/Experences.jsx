@@ -46,14 +46,14 @@ export default function Experences() {
 
                         position="MERN Stack Web App Developer" company="ResultRise"
                         companyLink="https://resultrise.vercel.app/"
-                        time="2022-Present" address="Dhaka, Bangladesh"
+                        time="2022" address="Dhaka, Bangladesh"
                         work="Worked on a team responsible for developing  student result generating website"
                     />
                     <Details
 
                         position="Full Stack Web Developer" company="Taqwa International"
                         companyLink="https://www.taqwaint.com/"
-                        time="2023-Present" address="Dhaka Bangladesh"
+                        time="2023-Present - Freelance" address="Dhaka Bangladesh"
                         work="Worked on Corporate gift items supplier Ecommerce Agency Website"
                     />
                 
