@@ -37,46 +37,27 @@ export default function Experences() {
                 <ul className="w-full flex flex-col items-start  justify-between ml-4 xs:ml-2 ">
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="MERN Stack Web App Developer" company="DigitalFix"
+                        companyLink="https://digitalfixbd.com/"
+                        time="2023-Present" address="Amborkhana, Sylhet"
+                        work="Worked on a team responsible for developing new web apps from scratch, including improving their accuracy and relevance Through this they have gained a reputation."
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="MERN Stack Web App Developer" company="ResultRise"
+                        companyLink="https://resultrise.vercel.app/"
+                        time="2022-Present" address="Dhaka, Bangladesh"
+                        work="Worked on a team responsible for developing  student result generating website"
                     />
                     <Details
 
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+                        position="Full Stack Web Developer" company="Taqwa International"
+                        companyLink="https://www.taqwaint.com/"
+                        time="2023-Present" address="Dhaka Bangladesh"
+                        work="Worked on Corporate gift items supplier Ecommerce Agency Website"
                     />
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-                    />
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-                    />
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-                    />
+                
+                   
                 </ul>
             </div>
         </div>

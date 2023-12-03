@@ -36,6 +36,7 @@ export default function Skills() {
                 >
                     Web
                 </motion.div>
+                
                 <Skill name="CSS" x="-5vw" y="-16vw" />
                 <Skill name="HTML" x="-18vw" y="-20vw" />
                 <Skill name="NodeJS" x="14vw" y="23vw" />
