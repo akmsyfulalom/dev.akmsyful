@@ -49,6 +49,7 @@ export default function Skills() {
                 <Skill name="ExpressJS" x="-5vw" y="14vw" />
                 <Skill name="Figma" x="4vw" y="-22vw" />
                 <Skill name="Git GitHub" x="-25vw" y="2vw" />
+                <Skill name="JavaScript" x="-13vw" y="8vw" />
             </div>
 
         </>
