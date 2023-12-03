@@ -88,7 +88,7 @@ export default function Navbar() {
                         <GithubIcon />
                     </motion.a>
                     <motion.a
-                        href="https://github.com"
+                        href="https://twitter.com/AkmSyful"
                         target="_blank"
                         whileHover={{ y: 2 }}
                         whileTap={{ scale: 0.9 }}
@@ -106,7 +106,7 @@ export default function Navbar() {
                         <LinkedInIcon />
                     </motion.a>
                     <motion.a
-                        href="https://github.com"
+                        href="https://www.pinterest.com/akmsyful/"
                         target="_blank"
                         whileHover={{ y: 2 }}
                         whileTap={{ scale: 0.9 }}
@@ -162,7 +162,7 @@ export default function Navbar() {
 
                         <nav className="flex justify-center items-center flex-wrap">
                             <motion.a
-                                href="https://github.com"
+                                href="https://github.com/akmsyfulalom"
                                 target="_blank"
                                 whileHover={{ y: 2 }}
                                 whileTap={{ scale: 0.9 }}
@@ -180,7 +180,7 @@ export default function Navbar() {
                                 <TwitterIcon />
                             </motion.a>
                             <motion.a
-                                href="https://github.com"
+                                href="https://www.linkedin.com/in/akmsyful/"
                                 target="_blank"
                                 whileHover={{ y: 2 }}
                                 whileTap={{ scale: 0.9 }}
